@@ -1,51 +1,60 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
-  },
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
+  "id": "popout",
+  "title": "PopOut!",
+  "description": "<p>This module adds a PopOut! button to most actor sheets, journal entries, and applications.</p><p>The PopOut! button allows you to open a sheet/application/document into its own window, for easier viewing or for use with multiple monitors.</p>",
+  "version": "2.18",
+  "authors": [{ "name": "KaKaRoTo" }, { "name": "Posnet" }],
+  "scripts": ["./popout.js"],
+  "styles": [],
+  "packs": [],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "requires": [{ "id": "lib-wrapper", "type": "module" }]
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "https://github.com/Jordan-Ireland/Popout-Upgrade#readme",
+  "url": "https://github.com/Jordan-Ireland/Popout-Upgrade",
+  "manifest": "https://raw.githubusercontent.com/Jordan-Ireland/Popout-Upgrade/refs/heads/master/module.json",
+  "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-popout/archive/v2.18.zip",
+  "bugs": "https://github.com/Jordan-Ireland/Popout-Upgrade/issues",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.314",
+    "maximum": "12"
+  }
 }
