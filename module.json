@@ -50,7 +50,7 @@
   "readme": "https://github.com/Jordan-Ireland/Popout-Upgrade#readme",
   "url": "https://github.com/Jordan-Ireland/Popout-Upgrade",
   "manifest": "https://raw.githubusercontent.com/Jordan-Ireland/Popout-Upgrade/refs/heads/master/module.json",
-  "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-popout/archive/v2.18.zip",
+  "download": "https://github.com/Jordan-Ireland/Popout-Upgrade/archive/refs/tags/test.zip",
   "bugs": "https://github.com/Jordan-Ireland/Popout-Upgrade/issues",
   "compatibility": {
     "minimum": "11",
