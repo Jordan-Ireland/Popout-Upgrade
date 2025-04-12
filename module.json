@@ -2,7 +2,7 @@
   "id": "popout",
   "title": "PopOut!",
   "description": "<p>This module adds a PopOut! button to most actor sheets, journal entries, and applications.</p><p>The PopOut! button allows you to open a sheet/application/document into its own window, for easier viewing or for use with multiple monitors.</p>",
-  "version": "2.18",
+  "version": "0.0.1",
   "authors": [{ "name": "Panda" }],
   "scripts": [
     "scripts/popout.js"
@@ -16,7 +16,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "languages/en.json"
     }
   ],
   "readme": "https://github.com/Jordan-Ireland/Popout-Upgrade#readme",
