@@ -1,12 +1,13 @@
 {
-  "id": "popout",
-  "title": "PopOut!",
-  "description": "<p>This module adds a PopOut! button to most actor sheets, journal entries, and applications.</p><p>The PopOut! button allows you to open a sheet/application/document into its own window, for easier viewing or for use with multiple monitors.</p>",
-  "version": "0.0.2",
-  "authors": [{ "name": "Panda" }],
-  "scripts": [
-    "scripts/popout.js"
-  ],
+  "id": "spellmanagement",
+  "title": "Spell Management!",
+  "description": "<p></p>",
+  "version": "0.0.1",
+  "authors": [{ "name": "Panda" }],  
+  "esmodules": [
+    "scripts/spellManagement.js",
+    "scripts/settings.js"
+],
   "styles": [],
   "packs": [],
   "relationships": {
