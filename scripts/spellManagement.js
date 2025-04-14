@@ -2,12 +2,12 @@ import { setupSettings } from "./settings.js";
 
 class SpellManagementModule {
   constructor() {
+    this.log("SpellManagementModule constructor");
     this.managedSpells = new Map();
   }
 
   async init() {
     this.log("Initializing SpellManagementModule");
-    setupSettings();
     await registerHooks();
   }
 
@@ -18,7 +18,6 @@ class SpellManagementModule {
   }
 
   log(msg, ...args) {
-    // eslint-disable-next-line no-undef
     if (game && game.settings.get("spellManagement", "verboseLogs")) {
       const color = "background: #6699ff; color: #000; font-size: larger;";
       console.debug(`%c SpellManagementModule: ${msg}`, color, ...args);
@@ -33,9 +32,13 @@ class SpellManagementModule {
   }
 }
 
-/* eslint-disable no-undef */
+Hooks.on("init", () => {
+  console.log("SpellManagementModule | Initializing");
+  setupSettings();
+});
+
 Hooks.on("ready", async () => {
+  console.log("SpellManagementModule | Ready");
   SpellManagementModule.singleton = new SpellManagementModule();
   await SpellManagementModule.singleton.init();
 });
-/* eslint-enable no-undef */

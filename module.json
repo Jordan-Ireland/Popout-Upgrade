@@ -1,12 +1,12 @@
 {
-  "id": "spellmanagement",
+  "id": "spellManagement",
   "title": "Spell Management!",
   "description": "<p></p>",
   "version": "0.0.1",
   "authors": [{ "name": "Panda" }],  
   "esmodules": [
-    "scripts/spellManagement.js",
-    "scripts/settings.js"
+    "scripts/settings.js",
+    "scripts/spellManagement.js"
 ],
   "styles": [],
   "packs": [],

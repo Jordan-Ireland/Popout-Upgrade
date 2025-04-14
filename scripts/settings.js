@@ -4,7 +4,7 @@ export function setupSettings() {
     name: "Enable more module logging.",
     hint: "Enables more verbose module logging. This is useful for debugging the module. But otherwise should be left off.",
     scope: "client",
-    config: false,
+    config: true,
     default: false,
     type: Boolean,
   });
